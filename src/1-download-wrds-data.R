@@ -30,7 +30,7 @@ wrds <- dbConnect(Postgres(),
                   password=rstudioapi::askForSecret("WRDS pw"),
                   sslmode='require',
                   dbname='wrds')
-wrds  # checking if connection exists
+#wrds  # checking if connection exists
 
 
 # See a list of tables in a schema ---------------------------------------------
